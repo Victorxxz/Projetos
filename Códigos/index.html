@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>João Victor</h1>
+  <p>Meu nome é João, sou natural de Curitiba, Paraná, e sempre nutri um profundo interesse pela área da tecnologia.
+    Desde a infância, demonstrava curiosidade por entender como as coisas funcionavam, especialmente no universo
+    digital. Com o passar dos anos, esse interesse se transformou em uma verdadeira paixão, que hoje orienta muitos
+    dos meus objetivos pessoais e profissionais.
+
+    A tecnologia sempre esteve presente em minha trajetória, não apenas como uma forma de interação com o mundo, mas
+    como uma ferramenta essencial de aprendizado, criação e desenvolvimento. Tenho grande apreço pela compreensão de
+    sistemas, bem como pelos aspectos técnicos e conceituais que envolvem essa área em constante transformação.
+
+    Curitiba, cidade em que nasci e cresci, oferece um ambiente propício ao estudo e à inovação, características que
+    contribuíram diretamente para minha formação. Essa combinação entre minha cidade natal e minha busca por
+    conhecimento moldou o indivíduo que sou hoje: alguém determinado, curioso e comprometido com o crescimento
+    intelectual e profissional.
+
+    Acredito firmemente que o conhecimento é um processo contínuo, e enxergo na tecnologia não apenas uma vocação,
+    mas também um meio de contribuir de forma significativa para a sociedade.</p>
+
+    <button class="simple-button" onclick="mostrarMensagem()">Clique para ver uma mensagem!</button>
+
+  <ul>
+    <li>Gosto de video games</li>
+    <li>adoro praticar esportes</li>
+    <li>apaixonado por todo tipo de curiosidade que envolva tecnologia</li>
+  </ul>
+
+  <img src="https://www.pngall.com/wp-content/uploads/5/PS5-Controller-PNG-Image.png">
+
+  <table border="1">
+    <tr>
+      <th>País</th>
+      <th>Paisagens</th>
+    </tr>
+    <tr>
+      <td>Rússia</td>
+      <td> <img src="https://wallpapercat.com/w/full/c/9/3/295356-1920x1080-desktop-full-hd-moscow-background-image.jpg", width="1080px"></td>
+    </tr>
+    <tr>
+      <td>Japão</td>
+      <td> <img
+          src="https://img.freepik.com/fotos-gratis/montanha-fuji-e-lago-kawaguchiko-na-manha-outono-montanhas-fuji-em-yamanachi-no-japao_335224-102.jpg?semt=ais_hybrid&w=740", width="1080px"></td>
+    </tr>
+    <tr>
+      <td>EUA</td>
+      <td> <img
+          src="https://cdn.prod.website-files.com/63b7026306af943f8e01771f/65f060ff6d6a4ebc9a43ab6a_times%20square.webp", width="1080px"></td>
+    </tr>
+  </table>
+
+  <a href="https://www.adrenaline.com.br/">site de noticias</a>
+
+  <style>
+     a {
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #00ff0d; 
+    }
+
+    .simple-button {
+      background-color: #3498db; /* verde suave */
+      border: none;
+      color: white;
+      padding: 12px 24px;
+      text-align: center;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .simple-button:hover {
+      background-color: #00ff0d;
+    }
+  </style>
+
+  <script>
+
+    function mostrarMensagem() {
+      const div = document.getElementById("mensagem");
+      div.textContent = "Você deve entender que há mais de um caminho para o topo da montanha";
+      div.style.display = "block";
+    }
+
+  </script>
+</body>
+
+</html>
